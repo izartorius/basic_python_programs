@@ -6,3 +6,6 @@ while True:
         inputs.append(num)
         inputs.sort()
 
+    except ValueError:
+        print(inputs)
+        break
