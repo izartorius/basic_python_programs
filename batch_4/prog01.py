@@ -7,7 +7,7 @@ for i in range(1, 11):
 dupes = []
 
 for num in inputs:
-    if inputs.count(num) > 1:
+    if inputs.count(num) > 1 and num not in dupes:
         dupes.append(num)
 
 print("The inputs that have duplicates are:")
