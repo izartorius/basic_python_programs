@@ -8,3 +8,4 @@ num1 = numbers[0]
 
 for i in range(1, 10):
     diff = num1 - numbers[i]
+    print(f"The difference of {num1} - {numbers[i]} is {diff}")
