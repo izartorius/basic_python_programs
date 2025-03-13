@@ -9,3 +9,7 @@ unique = []
 for num in inputs:
     if inputs.count(num) == 1:
         unique.append(num)
+
+print("The numbers that have no duplicates are:")
+for num in unique:
+    print(num)
