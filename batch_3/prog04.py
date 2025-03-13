@@ -6,6 +6,5 @@ while True:
         inputs.append(num)
 
     except ValueError:
-        if inputs:
-            print(f"The lowest input is {min(inputs)}.")
+        print(f"The lowest input is {min(inputs)}.")
         break
