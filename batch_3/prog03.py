@@ -9,3 +9,7 @@ while True:
         else:
             print("Unique")
             inputs.append(num)
+
+    except ValueError:
+        print("Invalid input. Program is now returning to void..")
+        break
