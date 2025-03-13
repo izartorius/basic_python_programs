@@ -5,6 +5,11 @@ while True:
         num = float(input("Enter a number: "))
         inputs.append(num)
 
-        total = sum(inputs)
-        count = len(inputs)
-        average = total / count
+    except ValueError:
+        if inputs:
+            total = sum(inputs)
+            count = len(inputs)
+            ave = total / count
+
+            print(f"The average of the inputs is {ave}")
+            break
