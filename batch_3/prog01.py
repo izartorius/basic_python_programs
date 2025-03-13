@@ -5,3 +5,7 @@ for i in range(1, 11):
     inputs.append(num)
 
 unique = []
+
+for num in inputs:
+    if inputs.count(num) == 1:
+        unique.append(num)
