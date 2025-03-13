@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a947a50-12f8-467f-be02-5508cb01f3ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/batch_1/prog04.py" beforeDir="false" afterPath="$PROJECT_DIR$/batch_1/prog04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch_1/prog05.py" beforeDir="false" afterPath="$PROJECT_DIR$/batch_1/prog05.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,8 @@
     "Python.prog01.executor": "Run",
     "Python.prog02.executor": "Run",
     "Python.prog03.executor": "Run",
+    "Python.prog04.executor": "Run",
+    "Python.prog05.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
