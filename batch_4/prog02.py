@@ -14,4 +14,5 @@ while True:
         if inputs:
             most_duplicate = max(inputs, key=inputs.get)
             print(f"The number with the most duplicates is: {most_duplicate}")
+            break
 
