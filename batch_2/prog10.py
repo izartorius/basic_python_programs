@@ -10,3 +10,5 @@ elif num1 < num2:
     for i in range(num1 +1, num2):
         num.append(i)
     print(f"The numbers between {num1} and {num2} is {num}")
+else:
+    print("Both inputs are equal, there are no numbers between them.")
