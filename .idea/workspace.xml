@@ -47,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.prog01.executor": "Run",
+    "Python.prog02.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
