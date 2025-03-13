@@ -8,6 +8,4 @@ while True:
     except ValueError:
         if inputs:
             print(f"The lowest input is {min(inputs)}.")
-        else:
-            print("Invalid input.")
-            break
+        break
