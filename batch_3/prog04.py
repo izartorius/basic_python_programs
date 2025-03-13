@@ -4,3 +4,10 @@ while True:
     try:
         num = float(input("Enter a number: "))
         inputs.append(num)
+
+    except ValueError:
+        if inputs:
+            print(f"The lowest input is {min(inputs)}.")
+        else:
+            print("Invalid input.")
+            break
