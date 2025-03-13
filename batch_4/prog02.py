@@ -1,4 +1,4 @@
-inputs = []
+inputs = {}
 
 while True:
     try:
@@ -10,4 +10,8 @@ while True:
         else:
             inputs[num] = 1
 
+    except ValueError:
+        if inputs:
+            most_duplicate = max(inputs, key=inputs.get)
+            print(f"The number with the most duplicates is: {most_duplicate}")
 
