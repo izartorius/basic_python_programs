@@ -5,3 +5,9 @@ for i in range(1, 11):
     inputs.append(num)
 
 done = []
+
+for num in inputs:
+    if num not in done:
+        done.append(num)
+
+print(done)
