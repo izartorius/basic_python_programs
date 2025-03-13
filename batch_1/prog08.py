@@ -5,4 +5,4 @@ for i in range(10):
     if num % 2 != 0:
         odd.append(num)
 
-print(f"The odd numbers are: {odd}")
+print(f"There are {len(odd)} odd numbers, {odd}")
